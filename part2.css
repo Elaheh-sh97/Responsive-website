@@ -1,0 +1,112 @@
+.part2{
+    /* border: 1px solid orange; */
+    margin-top: 50px;
+    margin-right: 70px;
+    margin-left: 70px;
+    text-align: center;
+    overflow: auto;
+    
+    
+    }
+    main .main2-image{
+        width: 50%;      
+        float: left;
+        filter: brightness(60%);
+        margin-right: 40px;
+    }
+  
+    main .text2{ 
+        /* width: 100%; */
+      min-height:400px;
+        overflow: auto;
+       text-align: center;
+        /* border: 1px solid blue; */
+        margin-right: 0px;
+        padding: 40px;
+        background-color: rgb(37, 37, 37);
+        vertical-align: baseline;
+    }
+    .text2 h3{
+        color:orange ;
+        font-size: 25px;
+    }
+    .text2 h4{
+        color: white;
+        font-size: 30px;
+    }
+   
+ main .text2 .title{
+    width: auto;
+   
+ }
+    main .text2 .table-responsive{
+        /* width: 100%; */
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    main .text2 ul{
+        color:orange ;
+        font-size: 20px;
+        
+    }
+    main .text2 ul li{
+       list-style: none;
+        color: white;
+        font-size: 20px;
+    }
+    main .text2 button{
+        
+        height: auto;
+        background-color: rgb(37, 37, 37);
+        outline: none;
+        border: 1px solid rgb(255, 136, 0);
+        margin-top: 50px;
+        color: white;
+        width: 100px;
+        height: 30px;
+        
+
+    }
+    .text2 button:hover {
+        cursor: pointer;
+        box-shadow: 1px 1px 9px 0px  rgb(255, 136, 0);
+    }
+    @media only screen and (max-width:765px){
+        .table-responsive{
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+    
+    }
+    @media only screen and (max-width:650px){
+        main .main2-image{
+        width: 100%;
+        }
+       main .text2{
+        clear: left;
+       width: auto;
+       }
+       main .part2{
+        overflow: hidden;
+       }
+     main .part2 .title{
+        width: auto;
+        overflow:visible;
+        justify-content: center;
+     }
+    }
+    @media only screen and (max-width:430px){
+        .part2 .text2 .title{
+            /* border: 1px solid red; */
+            width: auto;
+        }
+        .part2 .text2 .title h3{
+            font-size: 18px;
+        }
+        .part2 .text2 .title h4{
+            font-size: 18px;
+        }
+       
+    }

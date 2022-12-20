@@ -1,0 +1,116 @@
+footer .footer{
+    width: 100%;
+    filter: brightness(60%);
+    margin-top: 30px;
+}
+footer{
+    position: relative;
+}
+footer .footer-text{
+    margin-left: 40px;
+position: absolute;
+   top: 20%;
+   left:40%;
+    color: white;
+}
+footer .footer-text h1{
+    text-align: center;
+}
+.footer-menu{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+.main-menu-dish{
+    color: rgb(255, 111, 0);
+    font-size: 25px;
+}
+.main-menu-dish ul li{
+    margin-bottom: 20px;
+    
+}
+.favorite-dishes{
+    color: rgb(255, 111, 0);
+    font-size: 25px;
+    margin-left: 90px;
+   
+}
+.favorite-dishes ul li{
+    margin-bottom: 20px;
+}
+
+/* .footer-menu h4{
+    margin-left: 30px;
+} */
+.footer-menu ul{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    /* background-color: rgb(70, 75, 73); */
+    min-width: 50px;
+}
+
+@media only screen and (max-width:1009px){
+    .favorite-dishes li{
+        margin-top:10px;
+        font-size: 20px;
+        
+    }
+    .main-menu-dish li{
+        margin-top: 10px;
+        font-size: 20px;
+    
+    } 
+    .footer-menu{
+        margin-top:40px ;
+    }}
+
+
+@media only screen and (max-width:920px){
+    footer .footer-text h1{
+        font-size: 25px;
+    }
+    footer .footer-menu h4{
+        font-size: 20px;
+    }
+    .footer-menu{
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .favorite-dishes{
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+    .footer-menu .main-menu-dish{
+        position: relative;
+    }
+    .footer-menu .main-menu-dish ul{
+        position: absolute;
+        top: 0px;
+        left: 129px;
+    }
+    .footer-menu .favorite-dishes{
+        position: relative;
+    }
+    .footer-menu .favorite-dishes ul{
+     
+        position: absolute;
+        top: 0px;
+        left: 129px;
+    }
+footer .footer-menu h4 ul{
+    display: none;
+    
+}
+footer .footer-menu h4 ul li{
+    margin-bottom: 5px;
+    padding-left: 20px;
+    list-style: none;
+    font-size: 15px;
+}
+footer .footer-menu h4:hover ul{
+    display: block;
+}
+
+    }

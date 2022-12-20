@@ -1,0 +1,60 @@
+.part1{
+/* border: 1px solid orange; */
+margin-top: 50px;
+margin-right: 70px;
+margin-left: 70px;
+text-align: center;
+overflow: auto;
+}
+
+main .main-image{
+    width: 50%;      
+    float: right;
+    margin-left: 40px;
+}
+main .text1 h4{
+    color:rgb(255, 136, 0) ;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+main .text1{
+    padding-top: 20px;
+    
+}
+main .text1 h2{
+    color: orangered;
+}
+.part1 .about-text{ 
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: justify;    
+}
+
+.text1 button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(255, 136, 0);
+    outline: none;
+    border: 1px solid rgb(255, 136, 0);
+    margin-top: 50px;
+   
+}
+.text1 button:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 9px 0px  rgb(255, 136, 0);
+}
+
+@media only screen and (max-width: 500px){
+    main .main-image{
+        width: 100%;
+    }
+    main .text1{
+        width: 100%;
+        
+       padding-top:30px;
+        clear: right;
+    }
+
+}
