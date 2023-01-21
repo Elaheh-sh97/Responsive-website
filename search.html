@@ -6,54 +6,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <title>login</title>
+    <script src="https://kit.fontawesome.com/fc69be62ec.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+        <link rel="stylesheet" href="project1.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
+     
+body{
+    font-family: 'Kalam', cursive;
+    background-image: url(Login.jpg);
+    background-repeat:repeat;
+    background-size:cover;
+}
+
         form{
-            max-width: 300px;
-            background-color: aquamarine;
+            max-width: 350px;
+            background-color: rgb(50, 45, 45);
             height: 400px;
             border-radius: 5px;
-            margin: auto;
-            padding: 0;
+            margin:80px auto;
+            padding: 20px;
             display: grid;
             grid-template-columns: auto;
             grid-template-rows: auto auto auto;
-
+          box-shadow: 1px 1px 20px 0px black;
         }
     
 .image{
-font-size: 174px;
+font-size: 140px;
 text-align: center;
+color: white;
 }
 
+.input-form1{
+margin:auto;
 
+}
 
-
-
+.input-form2{
+    margin:auto;
+}
+#email{
+      width: 300px;
+    height: 30px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+     padding-left: 10px;
+     transition: all 200ms ease-in-out;
+}
+.mail{
+    vertical-align: middle;
+    font-size: 30px;
+    color: rgb(203, 95, 0);
+}
+.password{ 
+    vertical-align: middle;
+    font-size: 30px;
+    color: rgb(203, 95, 0);
+}
+#email:hover{
+    box-shadow: 0px 1px 20px 0px orangered;
+}
+#password{
+    width: 300px;
+    height: 30px;
+      border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+     transition: all 200ms ease-in-out;
+}
+#password:hover{
+box-shadow: 0px 1px 20px 0px orangered;
+}
+h1{
+    text-align: center;
+    color: white;
+}
 
     </style>
 </head>
 <body>
-    <form action="">
-        <span class="material-symbols-outlined image">
-account_circle
-</span>
 
-<div class="input-form">
-<span class="material-symbols-outlined">
+    <form action="">
+<i class="fa-solid fa-circle-user image"></i>
+<h1>Login</h1>
+<div class="input-form1">
+<span class="material-symbols-outlined mail">
    mail
 </span>
-<input type="email" placeholder="" id="Email"> 
-<label for="Email">Email</label>
+<input type="email" placeholder="E-mail" id="email"> 
+<!-- <label for="Email">Email</label> -->
 
 </div>
-<div class="input-form">
-<span class="material-symbols-outlined">
+<div class="input-form2">
+<span class="material-symbols-outlined password">
 vpn_key
 </span>
-<input type="password" placeholder="" id="placeholder">
-<label for="password">Password</label>
+<input type="password" placeholder="Password" id="password">
+<!-- <label for="password">Password</label> -->
 </div>
 
 </form>
+
 </body>
 </html>

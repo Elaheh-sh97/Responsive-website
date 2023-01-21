@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Kalam', cursive;
 }
 body{
     background-color:  rgb(47, 47, 47);
@@ -31,7 +32,7 @@ left: 40px;
 
 header .menu .information ul{
     display: grid;
-    grid-template-columns:5% 50% 15% 15% 15% ;
+    grid-template-columns:5% 5% 45% 15% 15% 15% ;
     grid-template-rows: auto;
 }
 header .menu .information ul li{
@@ -51,7 +52,7 @@ header .menu .information ul .list5 input{
     display: none;
 }
 header .menu .information ul span:hover{
-    color: orangered;
+    /* color: orangered; */
     cursor: pointer;
 }
 header  .information ul .list1{
@@ -64,7 +65,7 @@ header  .information ul .list2{
     grid-row: 1/2;
 }
 header  .information ul .list3{
-    grid-column: 3/4;
+    grid-column: 6/7;
     grid-row: 1/2;
 }
 
@@ -130,7 +131,7 @@ header .menu nav ul a{
 
 
 @media only screen and (max-width:800px){
-    header .menu .information ul li a{
+    header .menu .information ul .info{
         display: none;
     }
     header .menu .information ul li{
@@ -147,7 +148,7 @@ header .menu nav ul a{
         
     }
     header .menu .information ul{
-        grid-template-columns: 8% 65% 10% 10% 10%;
+        grid-template-columns: 8% 8% 57% 10% 10% 10%;
         
     }
     .menu-icon{
@@ -159,6 +160,7 @@ header .menu nav ul a{
          position: absolute;
          right:10px;
          top: 16px;
+         border-radius: 3px;
          
      }
      header .menu-icon nav .list4{
@@ -203,9 +205,7 @@ border-radius: 50px;
         display: grid;
         grid-template-columns: 5% 5%;
     }
-    .menu .information ul .info{
-        /* display: none; */
-    }
+ 
 }
 
 
